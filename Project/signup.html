@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>SignUp Form</title>
+  <link rel="stylesheet" href="css1/style.css"> 
+  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="datepicker/css/datepicker.css">
+    
+   	
+
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="datepicker/js/bootstrap-datepicker.js"></script>
+    <script>
+    	$(function(){
+    		$('.datepicker').datepicker();
+    	});
+    </script>
+
+</head>
+<body>
+	<section class="container">
+	 <div class="register">
+		<h1> Please enter your details </h1>
+	<form action="login.html">
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" placeholder="firstName"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" placeholder="lastName"></td>
+			</tr>
+			<tr>
+				<td>User Name</td>
+				<td><input type="text" placeholder="someone@email.com"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" placeholder="password"></td>
+			</tr>
+			<tr>
+				<td>Re-enter Password</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>Birth Date</td>
+				<td>
+					<input type="text" placeholder="Date of Birth" class="datepicker" name="date">
+					<span class="glyphicon glyphicon-calendar"></span></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+
+					<div class="radio">
+      <label><input type="radio" name="optradio">Male</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="optradio">Female</label>
+    </div>
+
+
+				</td>
+			</tr>
+			<tr>
+				<td>Country/Region</td>
+				<td>
+					
+
+
+
+</style>
+   <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Country/Region
+    		<span class="caret"></span>
+		</button>
+        <ul class="dropdown-menu">
+            <li><a href="#">USA</a></li>
+            <li><a href="#">CANADA</a></li>
+        </ul>
+    </div>
+
+
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="Submit" value="Create Account"></td>
+			</tr>
+
+		</table>
+               
+	</form>
+
+ 
+
+
+</div>
+</section>
+</body>
+</html>
