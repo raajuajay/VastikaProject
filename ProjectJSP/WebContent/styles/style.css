@@ -1,0 +1,403 @@
+/*
+   
+   
+
+   Final Project
+   Author: Bethel 
+           Kriti
+           Hassene
+         
+   Date: 10/28/2014  
+
+   Filename:style.css
+*/
+
+
+/* Styles for the body */
+
+body{
+    padding: 0;
+    margin:0;
+    overflow-y: scroll;
+    font-family: Verdana;
+    font-size: 13px;
+    
+}
+body.admin{
+    background-color: pink;
+    
+}
+
+                                 /* ..............Styles for the navigation ..........*/
+#nav {
+    text-align: center;
+    clear: both;
+ /*   height: 100px;*/
+    margin: 0 auto;
+    width: 1020px;
+}
+#nav ul {
+    background-color:#1c679e;
+    list-style: none;
+    position: relative;
+
+   /* display: inline-table;*/
+}
+
+
+#nav ul ul {
+    display: none;
+    margin:0;
+    padding:0;
+}
+
+#nav ul li:hover > ul {
+    display: block;
+    background-color: #1c679e;
+    z-index: 10;
+}
+
+
+#nav  ul:after {
+content: "";
+clear: both;
+display: block;
+}
+    
+#nav ul li {
+    float: left;
+    z-index: 10;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+#nav ul li:hover {
+    background-color: black;
+    z-index: 10;
+    color: #FFFFFF;
+
+}
+#nav ul li:hover a {
+    
+}
+		
+#nav ul li a {
+    color:#FFFFFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+                
+#nav ul ul {
+    border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+}
+#nav ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a; position: relative;
+    position: relative;
+}
+#nav ul ul li a {
+    padding: 10px 10px;
+    color: #FFFFFF;;
+}	
+#nav ul ul li a:hover {
+    background-color: #297cba;
+}
+
+#nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
+#nav ul ul ul ul{
+    position: absolute; left: 100%; top:0;
+}
+
+            /* -------------------------Side Advertsment style-------------------------------------*/
+
+
+.advertisment{
+    height: 23px;
+    width:420px;
+    padding:5px;
+    position: relative;
+    top: 17px;
+    left:8px;
+    border: solid;
+    border-color:#605EF3;
+    color: #E22C56;
+
+}
+              /* -------------------------homepage style-------------------------------------*/
+
+#homeInfo{
+    
+    float: left;
+    margin-top: 25px;
+  }
+#homeAd div {
+    color: red;
+    border: solid;
+    height: 377px;
+    width: 454px;
+    font-family: serif;
+    font-size: 35px;
+    background-color: #00FFFF; 
+    text-align: center;
+    margin-top: 25px;
+ }
+ #homeAd div img{
+   margin-top: 50px;
+ }
+#homeAd{
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+signinAd P{
+    border: 0px;
+}
+            /* -------------------------footer style-------------------------------------*/
+
+
+.footer{
+    position:relative ;
+    bottom:2px;
+    top:20px; 
+    clear: both;
+    height: 20px;
+    width:1000px;
+    padding:10px;
+    background-color:#1c679e;
+    color: #DDCC01;
+    margin:auto 0;
+    text-align: center;
+    
+}
+/* -------------------------Cart Page---------------------------*/
+img.cartim{
+    height: 40px;
+    
+}
+table{
+    background-color:#CBC4DC;
+    border-collapse: collapse;
+    float: left;
+    margin-top: 15px;
+    clear: both;
+}
+table.cartsub{
+    float: right;
+    margin-right:450.6px;
+    margin-top: 0px;
+    border-collapse: collapse;
+}
+th.cartth{
+    color: #070D7A;
+}
+button.cartbutton{
+    margin-left:38px;
+  }
+a.payment{
+    color: #E22C56;
+  }
+td.total{
+    color:#12073D;
+    background-color:#F5FAFA;
+  }
+p.shopping{
+    font-size: 30px;
+    color: red;
+    }
+  
+#shipping{
+    float: left;
+    border-style: dotted;
+    border-color: #400B40;
+    background-color: #66092F;;
+    color: red;
+    
+  }
+  /* -------------------------Header Style/search box/ side links---------------------------*/
+p.header{
+}
+.parent{
+    height: 100px;
+    margin: 0 auto;
+    width: 1020px;
+}
+.logo{
+    width: 220px;
+    float: left;
+    padding: 0px;
+
+}
+.searchLink{
+    width:760px;
+    float: right;
+}
+.link{
+    height: 30px;
+    padding: 10px 0px 10px 0px;
+    float: right;
+    clear: both;
+}
+.search{
+    height: 30px;
+    padding: 10px 0px 10px 0px;
+    float: right;
+    clear: both;
+}
+.link ul{
+    list-style: none;
+}
+.link ul li{
+    display: inline;
+}
+  
+a{
+    text-decoration: none;
+}
+                     /*........ Styles for the sign in page.........*/
+.new{
+    color:yellow;
+}
+   
+.signnew{
+    
+    float: right;
+    margin-right: 640px;
+    color: #DDCC01;
+    border-style: solid;
+    margin-top: 15px;
+    width: 290px;
+    
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+    clear: both;
+    background-color:  #B01A78;
+
+
+}
+a.continue{
+    color: yellow;
+}
+#loginform{
+    background-color:white ;
+    width: 250px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 200px;
+}
+#login p{
+    color: red;
+}
+
+
+td.caption{
+    margin-left: 20px;
+    margin-top:5px;
+    font-family:verdana;
+
+}
+input.signin {
+    width: 80px;
+    height: 25px;
+    margin-top: 5px;
+
+}
+
+input.password {
+    width: 190px;
+    height: 35px;
+    margin-top: 5px;
+
+    
+}
+input.username{
+    width: 190px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 20px;
+}  
+   
+                                   /*........ Styles for the register........*/
+ .regmain{
+        
+    margin-right: 70px;
+    margin-left: 90px;
+    /*border-style: solid;*/
+    /*height: 500px;*/
+    /*border-top: hidden;*/
+    /* border-right: hidden;*/
+    /* border-left: hidden;*/
+    /*background-color:red ;*/
+
+      
+
+ }
+ 
+ .about{
+
+     text-align: center;
+     font-size: 30px;
+     font-family: verdana;
+     color:#E22C56;
+     border-style: solid;
+     border-top: hidden;
+     border-right: hidden;
+     border-left: hidden;
+     margin-right: 70px;
+     margin-left: 90px;
+ }
+input.email{
+    width: 190px;
+    height: 35px;
+    margin-right: 45px;
+    margin-top: 5px;
+    
+}
+input.username2{
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+}
+input.signup{
+      margin-top: 5px;
+  
+}
+                    /* ........Styles for product imgages........*/
+
+  
+   
+.MainContent{
+    width: 1020px;
+    margin: 0 auto;
+    font-family: verdana;
+    font-size: 13px;
+}
+.Line{
+        clear: both;
+        margin-bottom:2px ;
+	float: left;
+	
+
+}
+.items{
+    width: 202px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    margin-right: 2px;
+    padding-top: 70px;
+    margin-top:14px ;
+
+}
+table tr td{
+    font-family: verdana;
+    font-size: 14px;
+}
